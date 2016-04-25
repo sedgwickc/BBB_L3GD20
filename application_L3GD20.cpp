@@ -33,7 +33,7 @@ using namespace rover;
 
 int main() {
 
-	Adafruit_L3GD20 L3GD20(1);
+	Adafruit_L3GD20 L3GD20(2);
 	if( L3GD20.begin() == false)
 	{
 		std::cout<<"Could not find a valid L3GD20!\n"<<endl;

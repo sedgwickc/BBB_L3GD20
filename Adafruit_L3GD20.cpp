@@ -31,7 +31,7 @@ namespace rover {
 */
 /**************************************************************************/
 Adafruit_L3GD20::Adafruit_L3GD20(unsigned int I2CBus){
-	this->i2c_l3gd20 = new mraa::I2c(I2CBus);
+	this->i2c_l3gd20 = new mraa::I2c(I2CBus, true);
 }
 
 /***************************************************************************
